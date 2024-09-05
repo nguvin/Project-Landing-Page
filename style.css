@@ -34,9 +34,17 @@ a:visited {
     text-decoration: none;
     list-style-type: none;
 }
-#toprighticons {
+#toplefticons {
     display: flex;
     align-items: center;
+}
+.topleft:hover {
+    background-image: linear-gradient(90deg, #b856d0, #4347bf);
+    background-clip: text;
+    color: transparent;
+    fill: transparent;
+    font-size: 20px;
+    transition:150ms cubic-bezier(.42,0,.44,1.68);
 }
 /* main body */
 .maininfo {
