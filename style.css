@@ -60,6 +60,8 @@ a:visited {
 #frontbutton:hover {
     background-color: #4249be;
     color: white;
+    margin: 10px;
+    transition:150ms cubic-bezier(.42,0,.44,1.68);
 }
 .front-picture {
     width: 100%;
@@ -148,10 +150,14 @@ iframe {
 #baddiebutton {
     background-color: black;
     padding: 20px;
-    border-radius: 25%;
+    border-radius: 20px;
 }
 #baddiebutton:hover {
     background-color: red;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition:200ms cubic-bezier(.42,0,.44,1.68);
 }
 /* footer */
 #footer {
