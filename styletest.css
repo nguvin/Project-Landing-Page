@@ -120,7 +120,8 @@ iframe {
     margin-left:30%;
     margin-right: 33%;
     background-color: #1d1819;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 #baddiebutton {
     background-color: black;
@@ -141,6 +142,7 @@ iframe {
     text-align: center;
     color: white;
 }
+/* icon definitions */
 .socials-icons {
     border-style: solid;
     color: black;
@@ -152,7 +154,7 @@ iframe {
     justify-content: space-between;
     align-self: center;
   }
-  .fa-3x{ /*icon definitions */
+  .fa-3x{
     color: black;
   }
   .socials-icons a {
@@ -208,5 +210,3 @@ iframe {
     transform: translateY(47px) rotate(-180deg);
     opacity: 1;
   }
-  
-  /* positions */
