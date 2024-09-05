@@ -43,8 +43,16 @@ a:visited {
     right: auto;
     color: white;
 }
+#frontbutton {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: bold;
+}
 #frontbutton:hover {
-    color: blue;
+    color: #4249be;
 }
 .front-picture {
     width: 100%;
@@ -111,12 +119,16 @@ iframe {
     color: white;
     margin-left:30%;
     margin-right: 33%;
+    background-color: #1d1819;
+    border-radius: 20px;
 }
 #baddiebutton {
-
+    background-color: black;
+    padding: 20px;
+    border-radius: 25%;
 }
 #baddiebutton:hover {
-    color: red;
+    background-color: red;
 }
 /* footer */
 #footer {
