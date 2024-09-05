@@ -1,26 +1,60 @@
-body, #-body{
+body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 32px;
-    padding: 16px;
+    gap: 16px;
+    width: 100%;
 }
+/* buttons */
+.button {
+    text-decoration: none;
+}
+.button:link {
+    color: white;
+}
+.button:visited {
+    color: white;
+}
+/*hero */
+
+/* main body */
 .mainbody{
     display: flex;
-    gap: 16px;
 }
-#quote {
+#start {
+    background-color: #1F2937;
+    color: white;
     width: 100%;
+    justify-content: center;
+}
+/* cards */
+#infobody {
+    display: flex;
+    flex-direction: column;
+}
+#card {
+    display: flex;
+    flex-direction: row;
+}
+/* quote*/
+#quote {
     background-color: #E5E7EB;
 }
 .insidebody {
     flex-direction: column;
-    width: 100%;
     margin: 16px 100px 16px 100px;
 }
 #quotebody {
     font-size: 30px;
 }
+/* signup */
+#signup {
+    width: 75%;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+}
+/* footer */
 #footer {
     background-color: #1F2937;
     width: 100%;
