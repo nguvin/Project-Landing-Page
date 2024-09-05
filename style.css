@@ -4,21 +4,25 @@ body{
     align-items: center;
     width: 100%;
 }
+.mainbody{
+    display: flex;
+}
 /* buttons */
-.button {
+a {
     text-decoration: none;
 }
-.button:link {
+a:link {
     color: white;
 }
-.button:visited {
+a:visited {
     color: white;
 }
 /*hero */
 #header {
     width: 100%;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 100px;
 }
 .links {
     display: flex;
@@ -27,25 +31,28 @@ body{
     list-style-type: none;
 }
 /* main body */
-.mainbody{
-    display: flex;
-}
 #start {
     background-color: #1F2937;
     color: white;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    font-size: 30px;
 }
 /* cards information */
 #infobody {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 300px;
 }
 #spotifycards {
     display: flex;
     gap: 16px;
     border: 16px;
     border-color: #3882F6;
+    text-align: center;
 }
 .cards {
 
