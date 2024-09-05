@@ -48,28 +48,28 @@ a:visited {
 }
 /* main body */
 .maininfo {
-    position: absolute;
+    justify-content: center;
     text-align: center;
-    top: 17%;
-    left: 40%;
-    right: auto;
     color: white;
+    margin: 100px;
 }
 #frontbutton {
-    padding: 5px;
+    border: 20px;
     background-color: white;
     color: black;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: bold;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 45%;
+    margin-right: 45%;
+    flex-wrap: nowrap;
 }
 #frontbutton:hover {
     background-color: #4249be;
     color: white;
-    margin: 10px;
-    transition:150ms cubic-bezier(.42,0,.44,1.68);
+    margin-left: 42%;
+    margin-right: 42%;
+    transition:150ms ease;
 }
 .front-picture {
     width: 100%;
@@ -132,6 +132,14 @@ iframe {
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
+}
+#irvine {
+    color: #004381;
+}
+#irvine:hover {
+    color: yellow;
+    transition:150ms ease;
+    font-size: 35px;
 }
 #name {
     margin-right: 20px;
