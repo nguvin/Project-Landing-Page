@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/* buttons */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+/*hero */
+#header {
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    height: 100px;
+}
+.links {
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* main body */
+.front-picture {
+    width: 100%;
+    height: auto;
+}
+#start {
+    width: 100%;
+    height: 600px;
+    font-size: 30px;
+}
+/* cards information */
+#infobody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+#spotifycards {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    border: 16px;
+    border-color: #3882F6;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+}
+.cards {
+
+}
+/* quote*/
+#quote {
+    background-color: #E5E7EB;
+}
+.insidebody {
+    flex-direction: column;
+    margin: 16px 100px 16px 100px;
+}
+#quotebody {
+    font-size: 30px;
+}
+/* signup */
+#signup {
+    width: 75%;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+}
+/* footer */
+#footer {
+    background-color: #1F2937;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    justify-content: center;
+    color: white;
+}
