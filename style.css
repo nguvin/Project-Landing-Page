@@ -120,6 +120,11 @@ iframe {
 }
 #quotebody {
     font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#name {
+    margin-right: 20px;
 }
 /* signup */
 #signup {
