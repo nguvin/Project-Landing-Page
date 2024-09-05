@@ -45,7 +45,11 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 300px;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 255, 0.377));
 }
 #spotifycards {
     display: flex;
