@@ -141,3 +141,72 @@ iframe {
     text-align: center;
     color: white;
 }
+.socials-icons {
+    border-style: solid;
+    color: black;
+    padding: 10px;
+    gap: 12px;
+  
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .fa-3x{ /*icon definitions */
+    color: black;
+  }
+  .socials-icons a {
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+  }
+  .socials-container >a > i{
+    color: black;
+  }
+  .socials-container a i {
+    height: 16px;
+  }
+  /* animations */
+  .socials-icons a::before {
+    content:attr(data-social);
+    position: absolute;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    transform: translateY(30px) rotate(35deg);
+    opacity: 0;
+    transition:200ms cubic-bezier(.42,0,.44,1.68);
+  }
+  .socials-icons :hover {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  .socials-icons a::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(35deg);
+    opacity: 0;
+    transition:200ms cubic-bezier(.42,0,.44,1.68);
+  }
+  .socials-icons a:hover::before {
+    transform: translateY(68px) rotate(0);
+    opacity: 1;
+  }
+  .socials-icons a:hover::after {
+    transform: translateY(47px) rotate(-180deg);
+    opacity: 1;
+  }
+  
+  /* positions */
