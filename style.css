@@ -34,6 +34,10 @@ a:visited {
     text-decoration: none;
     list-style-type: none;
 }
+#toprighticons {
+    display: flex;
+    align-items: center;
+}
 /* main body */
 .maininfo {
     position: absolute;
