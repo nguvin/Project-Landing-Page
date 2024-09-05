@@ -89,22 +89,26 @@ iframe {
     color: white;
     background-color: black;
     opacity: .9;
+    border: 20px;
+    border-radius: 15px;
 }
 #quotebody {
     font-size: 30px;
 }
 /* signup */
-#signup {
+#signupbackground {
     width: 100%;
     background-color: black;
-    color: white;
-    justify-content: center;
-}
-#signupbackground {
-    width: 50%;
-    background-color: #3882F6;
     border-radius: 10px;
     margin: auto;
+}
+#signup {
+    width: 75%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* footer */
 #footer {
