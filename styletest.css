@@ -3,6 +3,9 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 /* buttons */
 a {
@@ -40,8 +43,8 @@ a:visited {
     right: auto;
     color: white;
 }
-#frontbutton {
-
+#frontbutton:hover {
+    color: blue;
 }
 .front-picture {
     width: 100%;
@@ -96,19 +99,24 @@ iframe {
     font-size: 30px;
 }
 /* signup */
-#signupbackground {
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-    margin: auto;
-}
 #signup {
-    width: 75%;
-    background-color: blue;
-    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+}
+#insidesignup {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    margin-left:30%;
+    margin-right: 33%;
+}
+#baddiebutton {
+
+}
+#baddiebutton:hover {
+    color: red;
 }
 /* footer */
 #footer {
