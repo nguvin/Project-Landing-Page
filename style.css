@@ -52,7 +52,8 @@ a:visited {
     font-size: bold;
 }
 #frontbutton:hover {
-    color: #4249be;
+    background-color: #4249be;
+    color: white;
 }
 .front-picture {
     width: 100%;
