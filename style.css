@@ -16,7 +16,17 @@ body{
     color: white;
 }
 /*hero */
-
+#header {
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+    list-style-type: none;
+}
 /* main body */
 .mainbody{
     display: flex;
@@ -27,14 +37,14 @@ body{
     width: 100%;
     justify-content: center;
 }
-/* cards */
+/* cards information */
 #infobody {
     display: flex;
     flex-direction: column;
 }
-#card {
+#cards {
     display: flex;
-    flex-direction: row;
+    gap: 16px;
 }
 /* quote*/
 #quote {
