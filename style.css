@@ -117,19 +117,19 @@ iframe {
     width: 100%;
 }
 .insidebody {
-    flex-direction: column;
-    margin: 16px 100px 16px 100px;
     color: white;
     background-color: black;
     opacity: .9;
     border: 20px;
     border-radius: 15px;
-    position: absolute;
-    top: 1050px;
-    left: 5%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-top: 975px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 #quotebody {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
