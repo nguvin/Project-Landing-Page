@@ -95,6 +95,17 @@ a:visited {
     position: absolute;
     top: 400px;
 }
+#spotifytext {
+    text-align: center; 
+    font-size: 25px;
+    color: grey;
+}
+#spotifytext:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1dd75f;
+    transition: 300ms ease-in-out;
+}
 #spotifycards {
     display: flex;
     width: 100%;
